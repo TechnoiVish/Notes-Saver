@@ -3,12 +3,12 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-row gap-10 items-center justify-center rounded-full p-5 bg-gradient-to-r from-indigo-500 '>
-      <NavLink to="/" className='border-2 border-cyan-500 text-white px-12  py-3 max-md:px-8 text-sm max-sm:px-6 rounded-full tracking-widest uppercase  font-bold bg-transparent hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500  hover:text-white dark:text-neutral-200 transition duration-200'>
+    <div className='flex flex-row gap-10 items-center justify-center rounded-full p-5  '>
+      <NavLink to="/" className='text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2'>
       Home  
       </NavLink>
     
-      <NavLink to="/pastes" className='border-2 border-cyan-500 text-white px-12 py-3 max-md:px-8 text-sm max-sm:px-6  rounded-full tracking-widest uppercase  font-bold bg-transparent hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500  hover:text-white dark:text-neutral-200 transition duration-200'>
+      <NavLink to="/pastes" className='text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2'>
       Content  
       </NavLink>
     </div>
