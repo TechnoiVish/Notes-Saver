@@ -1,6 +1,7 @@
 # React + Vite
 
-Live Preview - https://vercel.live/link/notes-saver-theta.vercel.app?via=project-dashboard-alias-list&p=1&page=/
+Live Preview - https://saving-notes.netlify.app
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
