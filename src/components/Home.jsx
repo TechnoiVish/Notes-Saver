@@ -48,7 +48,7 @@ function formatDate() {
 
   }
   return (
-  <div className='mt-20 '>
+  <div className='mt-10 '>
       <div className='flex flex-row gap-7 justify-center items-center'>
      <input className=' text-sm p-2 pl-4 rounded-lg  w-[66%] drop-shadow-md focus:outline-none max-sm:text-xs' type="text" value={title} onChange={(e)=>setTitle(e.target.value)} placeholder='Enter title here' />
 
